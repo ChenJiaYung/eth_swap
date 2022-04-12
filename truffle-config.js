@@ -1,6 +1,9 @@
 require('babel-register');
 require('babel-polyfill');
 
+//import sc directly from truffle project
+//could chnage wehre the sc are
+//could take sc json abi file and import into App.js to use the sc directly with the web3.js
 module.exports = {
   networks: {
     development: {
